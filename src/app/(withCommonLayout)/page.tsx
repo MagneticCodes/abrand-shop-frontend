@@ -1,8 +1,11 @@
+import HeroSection from "@/components/UI/HomePage/HeroSection/HeroSection";
+import TopCategorySection from "@/components/UI/HomePage/TopCategorySection/TopCategorySection";
 
 export default function HomePage() {
   return (
     <div>
-       <h1>Welcome To Angkon Shop !!!</h1>
+       <HeroSection />
+       <TopCategorySection />
     </div>
   );
 }
